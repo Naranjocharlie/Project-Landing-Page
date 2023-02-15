@@ -1,0 +1,43 @@
+*{
+    font: roboto;
+}
+
+.header,
+.hero,
+.footer{
+    background-color: #1f2937;
+}
+
+.hero.h1{
+    font: 48px;
+    font-weight:bolder;
+    color: #f9faf8;
+}
+
+.hero.p,
+.header.link{
+    font:18px;
+    color: #e5e7eb;
+}
+
+.header.logo{
+    font: 24px;
+    color: #f9faf8;
+}
+
+.hero.button,
+.calltoaction{
+    background-color: #3882f6;
+}
+
+.randominformation.h1{
+    font: 36px, bolder, #1f2937;
+}
+
+.testimonial{
+    background-color: #e5e7eb;
+}
+
+.testimonial.quote{
+    font: 36px, italic, #1f2937;
+}
