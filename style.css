@@ -12,35 +12,15 @@
     flex-direction: column;
 }
 
-.header.logo{
-    justify-self: start;
-}
-
-.header.link{
-    justify-self: end;
-}
-
 .landing{
     display: flex;
     flex-direction: column;
 }
-.hero{
-    display: flex;
-    flex-direction: column;
-}
+
 .hero.h1{
     font: 48px;
     font-weight:bolder;
     color: #f9faf8;
-}
-
-.hero.h1,
-.hero.p{
-    justify-self: start;
-}
-
-.hero#image{
-    justify-self: end;
 }
 
 .hero.p,
