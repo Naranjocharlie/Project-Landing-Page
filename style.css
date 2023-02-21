@@ -81,8 +81,8 @@
 }
 
 .infoimage{
-    max-height: 250px;
-    max-width: 250px;
+    max-height: 150px;
+    max-width: 150px;
     padding: 5px;
     border: 5px;
     border-style: solid;
@@ -112,7 +112,18 @@
 
 .attribute{
     justify-content: right;
+    font-weight: bold;
 }
 .testimonial.quote{
     font: 36px, italic, #1f2937;
+}
+
+.calltoaction{
+
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
