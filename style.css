@@ -119,7 +119,21 @@
 }
 
 .calltoaction{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
 
+.calltoactionh1,
+.calltoactionp{
+    display:flex;
+    flex-direction: column;
+}
+
+.calltoaction.button{
+    display: inline-flex;
 }
 
 .footer{
