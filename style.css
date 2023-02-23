@@ -1,11 +1,9 @@
 .body{
-    text-align: center;
-    font-family: "Roboto";
+    font-family: "Roboto", 'Times New Roman', Times, serif;
 }
 
 .container{
-    display: flex;
-    flex-direction: column;
+    padding: 40px;
 }
 
 .navbar,
@@ -28,7 +26,8 @@
 }
 
 .navbar h1{
-    font: 24px, #f9faf8;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .hero{
@@ -44,11 +43,20 @@
 }
 
 .hero h1{
-    font: 48px, bolder, #f9faf8;
+    font: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
 }
 
 .hero p{
-    font: 18px, #e5e7eb;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero button{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
 }
 
 .hero-img{
@@ -70,31 +78,73 @@
 
 .information h2{
     font: 36px, bolder, #1f2937;
+    text-align: center;
 }
 
 .information-points{
     display: flex;
+    justify-content: space-evenly;
 }
 
-.information div{
+.info1,
+.info2,
+.info3,
+.info4{
+    display:flex;
+    flex-direction: column;
+}
+
+.information img{
+    flex:1, 1, auto;
+    height: 250px;
+    width: auto;
+    padding: 5px;
     border: 5px;
     border-style: solid;
     border-radius: 5px;
     border-color: #3882f6;
 }
-.information img{
-    height: 250px;
-    width: 250px;
-    padding: 5px;
-}
 
 .information p{
+    flex: 1, 1, 200px;
+    justify-content: center;
 }
 
 .quote{
     background-color: #e5e7eb;
 }
 
-.quote h1{
-    font: 36px, italic, #1f2937;
+.quote p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
+}
+
+.quote b{
+    display: flex;
+    justify-content: right;
+}
+
+.calltoaction{
+    display:flex;
+    justify-content: center;;
+}
+
+.cta-text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.cta-button{
+    margin: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px;
+    border-style: solid;
+    border-color: #e5e7eb;
+    background-color: #3882f6;
+    border-radius: 5px;
+    color:white;
 }
