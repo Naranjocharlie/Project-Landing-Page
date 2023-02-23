@@ -8,6 +8,15 @@
 
 .navbar,
 .hero,
+.information,
+.quote,
+.footer{
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.navbar,
+.hero,
 .footer{
     background-color: #1f2937;
 }
@@ -128,7 +137,12 @@
 
 .calltoaction{
     display:flex;
-    justify-content: center;;
+    justify-content: center;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 .cta-text{
@@ -147,4 +161,11 @@
     background-color: #3882f6;
     border-radius: 5px;
     color:white;
+}
+
+.footer{
+    text-align: center;
+    color:#f9faf8;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
